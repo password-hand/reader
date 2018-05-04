@@ -1,0 +1,125 @@
+[[  
+    {
+    "name": "Linux环境编程：从应用到内核",
+    "describe": "本书的写作布局正是以APUE的章节作为参考，针对Linux环境，不仅对用户空间的接口进行阐述，同时还引导读者分析该接口在内核的源码实现，使得读者不仅可以知道接口怎么用，同时还可以理解接口是怎么工作的。对于Linux的系统调用，做到知其然，知其所以然。",
+    "author": "高峰 & 李彬",
+    "pages":"852",
+    "id":"rtbrbrbwserg",
+    "publish":"1998年4月16日",
+    "cover": "https://images-cn.ssl-images-amazon.com/images/I/41wVm2di7uL._SX358_BO1,204,203,200_.jpg",
+    "price": 84.80
+},
+{
+    "name": "Linux系统编程(第2版)",
+    "describe": "系统编程是指编写系统软件，其代码在底层运行，直接跟内核和核心系统库对话。 　　《Linux系统编程(第2版)》是一本关于Linux系统编程的教程，也是一本介绍Linux系统编程的手册，还是一本如何实现更优雅更快代码的内幕指南。全书分为11章和2个附录，详细介绍了Linux系统编程基本概念、文件I/O、缓冲I/O、高级文件I/O、进程管理、高级进程管理、线程、文件和目录管理、信号和时间等主题。附录给出了gcc和GNU C提供的很多语言扩展，以及推荐阅读的相关书目。",
+    "author": "Robert Love",
+    "pages":"233",
+    "id":"dfdfgbgbrb",
+    "publish":"2012年8月2日",
+    "cover": "https://images-cn.ssl-images-amazon.com/images/I/51Ox8qer8cL._SX432_BO1,204,203,200_.jpg",
+    "price": 70.80
+},
+    {
+        "name": "Java 8实战",
+        "pages":"234",
+        "id":"ergegegrreg",
+        "publish":"1998年6月21日",
+        "describe": "本书全面介绍了Java 8 这个里程碑版本的新特性，包括Lambdas、流和函数式编程。有了函数式的编程特性，可以让代码更简洁，同时也能自动化地利用多核硬件。全书分四个部分：基础知识、函数式数据处理、高效Java 8 编程和超越Java 8，清晰明了地向读者展现了一幅Java 与时俱进的现代化画卷。",
+        "author": "Raoul-Gabriel Urma & Mario Fusco & Alan Mycroft",
+        "cover": "https://images-cn.ssl-images-amazon.com/images/I/51XtZYaWGPL._SX411_BO1,204,203,200_.jpg",
+        "price": 62.40
+    },
+    {
+        "name": "UNIX环境高级编程(第3版)",
+        "pages":"774",
+        "id":"dfgdfgdgbb",
+        "publish":"2011年5月23日",
+        "describe": "本书是被誉为UNIX编程“圣经”的Advanced Programming in the UNIX Environment一书的第3版。在本书第2版出版后的8年中，UNIX行业发生了巨大的变化，特别是影响UNIX编程接口的有关标准变化很大。本书在保持前一版风格的基础上，根据最新的标准对内容进行了修订和增补，反映了最新的技术发展。书中除了介绍UNIX文件和目录、标准I/O库、系统数据文件和信息、进程环境、进程控制、进程关系、信号、线程、线程控制、守护进程、各种I/O、进程间通信、网络IPC、伪终端等方面的内容，还在此基础上介绍了众多应用实例，包括如何创建数据库函数库以及如何与网络打印机通信等。此外，还在附录中给出了函数原型和部分习题的答案。",
+        "author": "W. Richard Stevens & Stephen A. Rago",
+        "cover": "https://images-cn.ssl-images-amazon.com/images/I/51-yjqb7oHL._SX331_BO1,204,203,200_.jpg",
+        "price": 101.10
+    }
+],
+[
+    {
+        "name": "Linux/UNIX系统编程手册(上、下册)",
+        "pages":"571",
+        "id":"mtgdegdghdfhfhrsdg",
+        "publish":"1998年4月14日",
+        "describe": "《Linux/UNIX系统编程手册(上、下册)》是介绍Linux与UNIX编程接口的权威著作。Linux编程资深专家Michael Kerrisk在书中详细描述了Linux/UNIX系统编程所涉及的系统调用和库函数，并辅之以全面而清晰的代码示例。《Linux/UNIX系统编程手册(上、下册)》涵盖了逾500个系统调用及库函数，并给出逾200个程序示例，另含88张表格和115幅示意图。",
+        "author": "Michael Kerrisk",
+        "cover": "https://images-cn.ssl-images-amazon.com/images/I/51tM%2BAYRc%2BL._SY498_BO1,204,203,200_.jpg",
+        "price": 104.30
+    },
+    {
+        "name": "Node.js实战",
+        "pages":"523",
+        "id":"mtgdegfhhrsdg",
+        "publish":"1998年7月9日",
+        "describe": "《Node.js实战》是Node.js的实战教程，涵盖了为开发产品级Node应用程序所需要的一切特性、技巧以及相关理念。从搭建Node开发环境，到一些简单的演示程序，到开发复杂应用程序所必不可少的异步编程。书中还介绍了HTTP API的应用技巧等。",
+        "author": "Mike Cantelon & Marc Harter",
+        "cover": "https://images-cn.ssl-images-amazon.com/images/I/51agRFdCcfL._SX446_BO1,204,203,200_.jpg",
+        "price": 54.60
+    },
+    {
+        "name": "Node.js进阶之路",
+        "describe": "本书内容涵盖了 Node.js高并发的原理、源码分析以及使用 Node.js开发应用所需要的不同层面的技术实践。具体来讲，本书包括 Node.js异步机制（配以源码分析）、编辑与调试、测试技术、Docker 部署、模块机制、V8 引擎与代码优化、Promise 和 ES6 Generator、LoopBack 开源框架、使用 C++ 编写扩展、JavaScript严格模式、编码规范等内容。在 LoopBack 章节，本书详细介绍了使用此框架开发企业级 Web 应用的步骤，帮助读者迅速掌握使用这个强大框架的诀窍。最后一章详细介绍了编写不同类型的 C++ 模块的知识，并对堆内存管理等内容做了深入探讨。",
+        "author": "尤嘉",
+        "pages":"345",
+        "id":"mtgdeghrdfgdsdg",
+        "publish":"2013年5月7日",
+        "cover": "https://images-cn.ssl-images-amazon.com/images/I/61uocSHd7vL.jpg",
+        "price": 30.60
+    },
+    {
+        "name": "Node与Express开发",
+        "describe": "本书系统讲解了使用Express开发动态Web应用的流程和步骤。作者不仅讲授了开发公共站点及REST API的基础知识，同时还讲解了构建单页、多页及混合Web应用的规划方式及最佳实践。具体而言，第1~5章介绍Node 和Express，搭建一个示例网站的骨架，讨论测试和QA。第6~12章介绍Node中更重要的结构，讲解模板，介绍cookies、会话和表单处理器，探讨中间件以及从服务器发送电子邮件。第13~15章讨论持久化、URL路由、API的编写、流行的MVC范式。第18~22章讨论安全、社交媒体集成以及网站的调试、启用和维护。",
+        "author": "Ethan Brown",
+        "pages":"2323",
+        "id":"fgfdgfgnfnh",
+        "publish":"2012年2月15日",
+        "cover": "https://images-cn.ssl-images-amazon.com/images/I/51Uy66RHlsL._SX381_BO1,204,203,200_.jpg",
+        "price": 45.50
+    }
+],[
+    {
+        "name": "UNIX环境高级编程(第3版)",
+        "pages":"344",
+        "id":"drhfghfg",
+        "publish":"2014年4月15日",
+        "describe": "本书是被誉为UNIX编程“圣经”的Advanced Programming in the UNIX Environment一书的第3版。在本书第2版出版后的8年中，UNIX行业发生了巨大的变化，特别是影响UNIX编程接口的有关标准变化很大。本书在保持前一版风格的基础上，根据最新的标准对内容进行了修订和增补，反映了最新的技术发展。书中除了介绍UNIX文件和目录、标准I/O库、系统数据文件和信息、进程环境、进程控制、进程关系、信号、线程、线程控制、守护进程、各种I/O、进程间通信、网络IPC、伪终端等方面的内容，还在此基础上介绍了众多应用实例，包括如何创建数据库函数库以及如何与网络打印机通信等。此外，还在附录中给出了函数原型和部分习题的答案。",
+        "author": "W. Richard Stevens & Stephen A. Rago",
+        "cover": "https://images-cn.ssl-images-amazon.com/images/I/51-yjqb7oHL._SX331_BO1,204,203,200_.jpg",
+        "price": 101.10
+    },
+    {
+        "name": "Linux/UNIX系统编程手册(上、下册)",
+        "describe": "《Linux/UNIX系统编程手册(上、下册)》是介绍Linux与UNIX编程接口的权威著作。Linux编程资深专家Michael Kerrisk在书中详细描述了Linux/UNIX系统编程所涉及的系统调用和库函数，并辅之以全面而清晰的代码示例。《Linux/UNIX系统编程手册(上、下册)》涵盖了逾500个系统调用及库函数，并给出逾200个程序示例，另含88张表格和115幅示意图。",
+        "author": "Michael Kerrisk",
+        "pages":"134",
+        "id":"egrdgdfgdfg",
+        "publish":"2012年5月13日",
+        "cover": "https://images-cn.ssl-images-amazon.com/images/I/51tM%2BAYRc%2BL._SY498_BO1,204,203,200_.jpg",
+        "price": 104.30
+    },{
+        "name": "Node.js实战",
+        "pages":"1243",
+        "id":"fgdgdfgdfgfg",
+        "publish":"2011年6月15日",
+        "describe": "《Node.js实战》是Node.js的实战教程，涵盖了为开发产品级Node应用程序所需要的一切特性、技巧以及相关理念。从搭建Node开发环境，到一些简单的演示程序，到开发复杂应用程序所必不可少的异步编程。书中还介绍了HTTP API的应用技巧等。",
+        "author": "Mike Cantelon & Marc Harter",
+        "cover": "https://images-cn.ssl-images-amazon.com/images/I/51agRFdCcfL._SX446_BO1,204,203,200_.jpg",
+        "price": 54.60
+    },
+    {
+        "name": "深入理解ES6",
+        "describe": "ES6是迄今为止JavaScript内核首当其冲的一次重大更新。本书是领域大家Nicholas C. Zakas撰写的一份ES6的完整指南，书中详细讲解了ES 6在JavaScript对象类型、语法及其他方面激动人心的改变。每一章都含有可运行于任何JavaScript环境的示例代码，你可以利用这些代码测试、理解ES6中的新功能。无论你是Web开发者还是Node.js开发者，都可以通过本书来更好地理解和运用ES6，或是顺利地从ES5迁移到ES6。",
+        "author": "Nicholas C. Zakas",
+        "pages":"1186",
+        "id":"mtgdeghdfrsdg",
+        "publish":"2015年6月13日",
+        "cover": "https://images-cn.ssl-images-amazon.com/images/I/51kEnK%2BWQ-L._SX365_BO1,204,203,200_.jpg",
+        "price": 68.30
+    }
+]
+]

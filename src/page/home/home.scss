@@ -1,0 +1,216 @@
+.content {
+    .swiper-container {
+        width: 100%;
+        height: 30%;
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            img {
+                width: 100%;
+            }
+        }
+    } 
+    // 广告部分
+    .ad-box {
+        i {
+            color: orange;
+        }
+        p {
+            font-size: 12px;
+        }
+        border-bottom: 1px solid gray;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    } 
+    //图书加载部分
+    .books-box {
+        width: 95%;
+        margin: 0 auto;
+        h3 {
+            margin-left: 5px;
+        }
+        .book-list {
+            cursor: pointer;
+            width: 50%;
+            float: left;
+            padding: 5px;
+            img {
+                width: 100%;
+                height: 200px;
+            }
+            P {
+                font-size: 16px;
+            }
+            .color-txt {
+                color: rgb(231, 73, 25);
+            }
+        }
+    }
+}
+
+.booksList {
+    width: 97%;
+    height: calc(100% + 7px);
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    z-index: 100;
+    background: white;
+    border: 1px solid black;
+    .head {
+        height: 30px;
+        line-height: 30px;
+        padding-right: 10px;
+        border-bottom: 1px solid grey;
+        text-align: right;
+        p {
+            font-size: 24px;
+        }
+    }
+}
+
+.txt-content {
+    padding: 15px;
+    .img-box {
+        width: 85px;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .txt-box {
+        font-size: 12px;
+        color: grey;
+        margin-top: 10px;
+        margin-left: 10px;
+        p {
+            padding: 3px;
+        }
+    }
+    .val-box {
+        width: 110px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 12px;
+        color: black;
+        margin-top: 10px;
+        margin-left: 10px;
+        p {
+            padding: 3px;
+        }
+    }
+    .details-box {
+        p{
+           position: absolute;
+        bottom: -10px;
+        right: 0; 
+        }
+        
+        font-size: 14px;
+        color: grey;
+        margin-right: 10px;
+    }
+}
+
+.book-describe {
+    .label {
+        padding: 10px 0;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        text-decoration: none;
+        font-family: 微软雅黑;
+        color: rgb(0, 0, 0);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    p {
+        height: 193px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+        font-size: 12px;
+        color: grey;
+    }
+}
+
+.foot {
+    .price {
+        border-right: 1px solid grey;
+    }
+    .choose {
+        border-left: 1px solid grey;
+    }
+    div {
+        width: 50%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+        select {
+            border: 0;
+            width: 45%;
+            margin: 0 auto;
+        }
+    }
+    display:flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13%;
+    .btn-box {
+        display: flex;
+        border: 1px solid black;
+        width: 90%;
+        .actives {
+            background: rgb(51, 153, 51);
+            color: white;
+        }
+        div {
+            width: 50%;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 14px;
+            color: rgb(0, 0, 0);
+            &:first-child{
+                border-right: 1px solid black;
+            }
+        }
+    }
+}
+//显影效果
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }

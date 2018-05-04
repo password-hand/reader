@@ -1,0 +1,358 @@
+//登录注册
+.land-register {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    .head {
+        height: 50px;
+        line-height: 50px;
+        background: #1cb385;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+    }
+    .content-box {
+        padding: 10px;
+        .land {
+            width: 100%;
+            border-bottom: 1px solid #9c9191;
+            padding: 0 30px;
+            li {
+                float: left;
+                width: 50%;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                cursor: pointer;
+            }
+            .active {
+                color: rgb(51, 153, 51);
+                border-bottom: 4px solid rgb(51, 153, 51);
+            }
+        }
+        .regis{
+            width: 100%;
+            position: fixed;
+            top: 101px;
+            left: 0;
+            padding: 10px;
+        }
+        .input-box {
+            margin-top: 40px;
+            div {
+                padding: 10px;
+                margin-bottom: 40px;
+                border-bottom: 1px solid #9c9191;
+                i {
+                    font-size: 22px;
+                    margin-right: 10px;
+                }
+                input {
+                    border: 0;
+                    width: 158px;
+                }
+                span{
+                    color: red;
+                    font-size: 14px;
+                }
+            }
+            .land-btn {
+                cursor: pointer;
+                width: 95%;
+                height: 50px;
+                margin: 0 auto;
+                border-radius: 10px;
+                text-align: center;
+                background: rgb(51, 153, 51);
+                color: white;
+                &:hover {
+                    background: rgb(51, 204, 51);
+                }
+            }
+        }
+    }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .3s;
+}
+
+.fade-enter,
+.fade-leave-to
+/* .fade-leave-active below version 2.1.8 */
+    {
+    opacity: 0;
+}
+
+// 个人中心
+.content {
+    // background: red;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    .head {
+        height: 50px;
+        line-height: 50px;  
+        background: #1cb385;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+    }
+    .bg-box {
+        position: relative;
+        height: 200px;
+        background: url('../../assets/img/head.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+        .mark {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: white;
+            opacity: .5;
+        }
+        .img-box {
+            position: absolute;
+            left: 50%;
+            top: 45%;
+            z-index: 100;
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 1px solid gray;
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+        p {
+            color: #4749a0;
+            font-size: 18px;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%)
+        }
+    }
+    .user-info {
+        background-color: rgb(242, 242, 242);
+        div {
+            &:not(:last-child) {
+                padding-top: 10px;
+            }
+            p {
+                &:first-child {
+                    border-top: 1px solid #b7b5b5;
+                }
+                cursor: pointer;
+                height: 50px;
+                line-height: 32px;
+                background: white;
+                padding: 10px;
+                border-bottom: 1px solid #b7b5b5;
+                span {
+                    font-size: 14px;
+                    color: rgb(94, 94, 94);
+                }
+            }
+        }
+        .back-btn {
+            width: 96%;
+            margin: 20px auto 80px auto;
+            p {
+                height: 50px;
+                text-align: center;
+                line-height: 33px;
+                background: rgb(204, 51, 51);
+                border-radius: 10px;
+                color: white;
+                &:hover {
+                    background: rgb(255, 51, 51);
+                }
+            }
+        }
+    }
+}
+
+//个人信息修改
+.person-info {
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    background: #ece7e7;
+    z-index: 100;
+    .per-head {
+        height: 50px;
+        line-height: 49px;
+        background: #1cb385;
+        i {
+            margin-top: 16px;
+            color: white;
+            margin-left: 10px;
+        }
+        span {
+            text-align: center;
+            color: white;
+            width: 90%;
+        }
+    }
+    .per-content {
+        div {
+            background: white;
+            &:not(:last-child) {
+                height: 50px;
+                line-height: 38px;
+                border-bottom: 1px solid gray;
+            }
+            .active {
+                background: #359c35;
+                color: white;
+            }
+            span {
+                font-size: 14px;
+                color: gray;
+                display: inline-block;
+                position: relative;
+                border: 1px solid gray;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                margin-top: 5px;
+                &:nth-child(2) {
+                    border-radius: 20px 0 0 20px;
+                    border-right: 0;
+                }
+                &:nth-child(4) {
+                    border-radius: 0px 20px 20px 0;
+                    border-left: 0
+                }
+            }
+            label {
+                display: inline-block;
+                width: 90px;
+                padding-left: 10px;
+                font-size: 14px;
+                color: gray;
+            }
+            input {
+                border: 0;
+                color: black;
+                font-size: 14px;
+                &[placeholder] {
+                    font-size: 14px;
+                    color: black;
+                }
+                &[name="sex"] {
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                    left: 0;
+                    top: 8px;
+                }
+            }
+            textarea {
+                &[placeholder] {
+                    font-size: 14px;
+                    color: black;
+                }
+                width: 70%;
+                border: 0;
+                height: 100px;
+                overflow: hidden;
+                resize:none;
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+        }
+        button {
+            display: block;
+            width: 95%;
+            height: 50px;
+            margin: 0 auto;
+            padding: 10px;
+            margin-top: 30px;
+            background: #359c35;
+            border: 0;
+            color: white;
+            border-radius: 5px;
+            font-size: 14px;
+            &:hover {
+                background: rgb(51, 204, 51);
+                ;
+            }
+        }
+    }
+}
+
+//遮罩层
+.mask {
+    width: 100%;
+    height: 100%;
+    ;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #292424;
+    opacity: .6;
+    z-index: 101;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 200;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 300px;
+    background: white;
+    opacity: 1;
+    p {
+        color: black;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    button {
+        display: block;
+        width: 50%;
+        height: 50px;
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 30px;
+        background: #359c35;
+        border: 0;
+        color: white;
+        border-radius: 5px;
+        font-size: 14px;
+        &:hover {
+            background: rgb(51, 204, 51);
+            ;
+        }
+    }
+}
+
+.address-info {
+    .select-box {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        select {
+            font-size: 14px;
+            color: gray;
+            width: 80px;
+            height: 30px;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+.search-box {
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 5px;
+    i {
+        vertical-align: middle;
+        padding: 5px;
+        color: gray;
+        margin-top: -3px;
+    }
+    input {
+        border: 0;
+    }
+    input[placeholder] {
+        font-size: 17px;
+        color: black;
+    }
+}
+ 
+.book-list-box {
+    padding: 5px;
+    .book-list {
+        border-bottom: 1px solid #9c9191;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+.img-box {
+    float: left;
+    img {
+        margin-right: 10px;
+        width: 78px;
+        height: 98px;
+    }
+}
+
+.text-box {
+    margin-top: 10px;
+    p {
+        width: 180px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 16px;
+    }
+    .name {
+        color: rgb(65, 65, 224);
+    }
+    .author {
+        color: rgb(143, 137, 136);
+        margin: 3px 0 7px 0;
+    }
+    .price {
+        color: rgb(201, 51, 25);
+        font-size: 18px;
+    }
+}
+
+.right-icon {
+    margin-top: 35px;
+    img {
+        width: 20px;
+    }
+}
+
+.onload-book {
+    padding: 10px; 
+    .showTxt{
+            font-size: 18px;
+            color: gray;
+        }
+    p {
+        text-align: center;
+        font-size: 16px;
+        color: grey;
+       
+    }
+    img {
+        width: 14px;
+        vertical-align: middle;
+    }
+}
